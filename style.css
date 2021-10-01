@@ -98,6 +98,11 @@ nav {
 .sale {
   height: 800px;
 }
+
+.carousel-inner {
+  height: 470px;
+}
+
 /*SALE*/
 
 /*Brand*/
@@ -143,3 +148,16 @@ nav {
 }
 
 /*copyright*/
+.carousel-control-prev,
+.carousel-control-next {
+}
+.carousel-control-prev-icon {
+  margin-left: -148px;
+  margin-top: -180px;
+  background-image: url("IMG/prev.svg");
+}
+.carousel-control-next-icon {
+  margin-left: 148px;
+  margin-top: -180px;
+  background-image: url("IMG/next.svg");
+}
