@@ -61,14 +61,13 @@ nav {
 
 /*CARD CATEGORY*/
 .category .card {
-  width: 360px;
-  margin-left: 20px;
+  width: 330px;
   border-style: none;
 }
 
 .category {
   margin-top: -70px;
-  height: 400px;
+  margin-bottom: 100px;
 }
 /*CARD CATEGORY*/
 
@@ -97,9 +96,6 @@ nav {
 }
 .carousel-item a:hover {
   color: #ecb706;
-}
-.sale {
-  height: 800px;
 }
 
 .carousel-inner {
@@ -173,7 +169,6 @@ nav {
 @media (min-width: 920px) and (max-width: 1200px) {
   .category .card {
     width: 290px;
-    margin-left: 20px;
   }
   .carousel-inner .card {
     width: 200px;
@@ -216,12 +211,15 @@ nav {
     position: absolute;
   }
   .container .sale {
-    margin-top: -150px;
     width: 100%;
   }
   /*CATEGORIES*/
   .category .card {
-    width: 220px;
+    width: 200px;
+  }
+  /*COPYRIGHT*/
+  .copyright {
+    font-size: 12px;
   }
 }
 @media (min-width: 769px) and (max-width: 877px) {
@@ -259,8 +257,58 @@ nav {
   }
   .carousel-inner {
     height: 1200px;
+    text-align: center;
   }
   .container .sale {
     margin-top: 20px;
+  }
+  .carousel-item .card {
+    margin: auto;
+  }
+  .carousel-item a {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    display: none;
+  }
+  .category .card {
+    width: 386px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .category {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  .copyright {
+    height: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .herotext {
+    top: 23%;
+    position: absolute;
+    right: 0%;
+  }
+  .carousel-inner {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  .copyright {
+    height: 30px;
+  }
+  footer {
+    height: 700px;
+    background-color: #262626;
+  }
+  iframe {
+    width: 350px;
   }
 }
