@@ -264,7 +264,7 @@ nav {
 }
 
 .judul2 a {
-  color: #7e7e7e;
+  color: #000000;
   text-decoration: none;
 }
 .about-product {
@@ -444,8 +444,6 @@ nav {
   .similar-product .card {
     width: 300px;
     margin: 0px auto 20px auto;
-  }
-  .similar-product {
   }
 }
 @media (max-width: 576px) {
