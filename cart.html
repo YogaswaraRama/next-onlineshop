@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="IMG/Black Logo-1.svg" />
+    <title>Your Cart</title>
+  </head>
+  <body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-dark" style="background-color: #222222; margin-top: 0;"">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="IMG/Black Logo-1.svg" alt="" width="30" height="30" />
+        </a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <a class="navbar-brand" href="cart.html">
+          <img src="IMG/Cart.svg" width="30" height="30" />
+        </a>
+      </div>
+    </nav>
+    <!-- Navbar-->
+
+    <!--Breadcrumbs-->
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" id="active" aria-current="page">Cart</li>
+            </ol>
+        </nav>
+    </div>
+      
+    <!--Breadcrumbs-->
+
+    <!--Cart Page-->
+    <div class="container"  id="cartpage">
+        <div class="row">
+
+          <!--Your Items-->
+          
+            <div class="col-6 cols-xs-12">
+                <div class="row cart-product">
+                    <div class="col-md-3 col-sm-12">
+                        <img class="imgxs" src="IMG/product/productxs.svg" alt="">
+                    </div>
+                    <div class="col">
+                        <h5>DAME 7 EXTPLY: DAME D.O.L.L.A. SHOES</h5>
+                        <p class="p-cart">Rp 1.900.000</p>
+                    </div>
+                </div>    
+                <div class="delete-section">
+                  <img class="trash" src="IMG/trashicon.svg" href="" alt="">
+                  <button onclick="decrement()" id="btnmin">-</button>
+                  <input type="number" min="0" max="100" id="numbernya" >
+                  <button onclick="increment()" id="btnpls">+</button>
+                </div>   
+            </div>
+
+            <!--Your Order-->
+            <div class="col-5 offset-1">
+                <div class="row order-product">
+                    <div class="col">
+                       <h5>Your Order</h5>
+                       <p><span class="orderleft">DAME 7 EXTPLY: DAME D.O.L.L.A. SHOES</span> <span class="orderright">Rp 1.900.000</span></p>
+                       <p><span class="orderleft">Shipping</span> <span class="orderright">Rp 200.000</span></p>
+                       <hr>
+                       <h6><span class="orderleft">Total</span>   <span class="orderright">Rp 2.100.000</span></h6>
+                    </div>
+                    
+                    <button id="checkoutbtn">
+                    <a href="success.html">Checkout</a>  
+                    </button>
+                </div>          
+            </div>
+            <!--Your Order-->
+          <!--Your Items-->
+
+         
+          
+          
+
+        </div>
+
+
+
+      </div>
+    <!--Page Kategory-->
+    
+   
+
+  
+
+    <!--Copyright-->
+    
+    <div class="copyright  ">
+      <div class="row ">
+        <div class="col-sm-4 col-md-auto ">
+          <div class="copyright"><p class="pcopyright">© 2021 NeX. All rights reserveds. </p></div>
+        </div>
+
+       <div class="col-sm-4 col-md-auto">
+         <div class="copyright "><p class="pcopyright">Terms and condition</p></div> 
+        </div>
+      
+        <div class="col-sm-4 col-md-auto d-flex ">
+          <div class="copyright "><p class="pcopyright">Privacy police</p></div>
+        </div>
+                 
+            </div></div>
+          </div>
+      </div>
+   
+      <!--Copyright-->
+
+
+      <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>

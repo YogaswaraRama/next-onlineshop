@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  height: 100vh;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -38,6 +39,10 @@ body {
   border-radius: 9px;
   font-size: 26px;
 }
+#herobutton a {
+  text-decoration: none;
+  color: #000000;
+}
 #shopbutton-black {
   width: 431px;
   height: 76px;
@@ -55,6 +60,14 @@ body {
   border-radius: 9px;
   font-size: 26px;
   margin-bottom: 20px;
+}
+#shopbutton a {
+  text-decoration: none;
+  color: #000000;
+}
+#shopbutton-black a {
+  text-decoration: none;
+  color: #ffd23e;
 }
 /*HERO*/
 
@@ -292,7 +305,75 @@ nav {
   font-weight: 400;
   color: #b5bfda;
 }
+#cartpage {
+  height: 100%;
+}
+.cart-product {
+  border: 1px solid #b7cbff;
+  padding: 15px;
+  border-radius: 5px;
+}
+.p-cart {
+  text-align: end;
+  margin-top: 50px;
+}
+.orderright {
+  display: flex;
+  justify-content: end;
+}
+.orderleft {
+}
+.order-product {
+  border: 1px solid #b7cbff;
+  padding: 15px;
+  border-radius: 5px;
+}
+#checkoutbtn {
+  margin-top: 20px;
+  width: 431px;
+  height: 76px;
 
+  background-color: #ffd23e;
+  border-style: none;
+  border-radius: 9px;
+  font-size: 26px;
+}
+#checkoutbtn a {
+  color: #181818;
+  text-decoration: none;
+}
+.delete-section {
+  text-align: right;
+  margin-top: 10px;
+}
+.delete-section .trash {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.success-notif {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  width: 50%;
+  text-align: center;
+}
+.success-notif img {
+  width: 355px;
+  height: 355px;
+}
+#button-black {
+  width: 431px;
+  height: 76px;
+  background-color: #181818;
+  border-style: none;
+  border-radius: 9px;
+  font-size: 26px;
+}
+#button-black a {
+  text-decoration: none;
+  color: #ffd23e;
+}
 /*=============================================================================================================*/
 
 /*BREAKPOINT*/
@@ -365,6 +446,15 @@ nav {
   .similar-product .card {
     width: 200px;
     margin-right: 20px;
+  }
+  #button-black {
+    width: 300px;
+    height: 56px;
+    color: #ffd23e;
+    background-color: #181818;
+    border-style: none;
+    border-radius: 9px;
+    font-size: 20px;
   }
 }
 @media (min-width: 769px) and (max-width: 877px) {
@@ -445,6 +535,9 @@ nav {
     width: 300px;
     margin: 0px auto 20px auto;
   }
+  .success-notif img {
+    width: 295px;
+  }
 }
 @media (max-width: 576px) {
   .herotext {
@@ -477,5 +570,15 @@ nav {
   }
   .about-product {
     font-size: 12px;
+  }
+  .success-notif img {
+    width: 250px;
+  }
+  .success-notif p {
+    font-size: 14px;
+  }
+  #button-black {
+    width: 200px;
+    font-size: 16px;
   }
 }
