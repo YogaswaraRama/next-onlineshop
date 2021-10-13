@@ -72,12 +72,20 @@ body {
 /*HERO*/
 
 /*NAV*/
-nav {
+.navbar {
   z-index: 9;
-  margin-top: 30px;
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-.nav-link {
+.navbar-nav {
+  justify-content: center;
+  width: 100%;
+}
+.nav-item {
   color: white;
+  margin-right: 20px;
 }
 .nav-link:link {
   color: #ffd23e;
@@ -540,6 +548,10 @@ nav {
   }
 }
 @media (max-width: 576px) {
+  .navbar {
+    margin-top: 0px;
+    background-color: #000000;
+  }
   .herotext {
     top: 23%;
     position: absolute;
@@ -553,6 +565,7 @@ nav {
   .copyright {
     height: 30px;
     padding: 3px 0px 3px 0px;
+    text-align: center;
   }
   .pcopyright {
     padding: 3px 0px 0px 20px;
@@ -580,5 +593,18 @@ nav {
   #button-black {
     width: 200px;
     font-size: 16px;
+  }
+}
+@media (max-width: 440px) {
+  .heroimage {
+    width: 200%;
+  }
+  .herotext {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 370px) {
+  .herotext {
+    margin-top: 50px;
   }
 }
