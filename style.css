@@ -602,6 +602,9 @@ body {
   .herotext {
     margin-top: 100px;
   }
+  iframe {
+    width: 250px;
+  }
 }
 @media (max-width: 370px) {
   .herotext {
