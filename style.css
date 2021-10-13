@@ -606,7 +606,10 @@ body {
     width: 250px;
   }
 }
-@media (max-width: 370px) {
+@media (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
   .herotext {
     margin-top: 50px;
   }
