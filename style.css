@@ -383,6 +383,10 @@ html {
   text-decoration: none;
   color: #ffd23e;
 }
+.copyright a {
+  text-decoration: none;
+  color: #ffd23e;
+}
 /*=============================================================================================================*/
 
 /*BREAKPOINT*/
